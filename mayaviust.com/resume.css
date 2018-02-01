@@ -1,0 +1,46 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+  font-family: Tahoma, sans-serif;
+  color: #707277;
+}
+
+/*Navigation settings*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #016199;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a: hover {
+    background-color: #586f93;
+}
+
+.active {
+    background-color: #586f93;
+    color: white;
+}
+
+h2 {
+    font-weight: normal;
+    color: #016199;
+}
